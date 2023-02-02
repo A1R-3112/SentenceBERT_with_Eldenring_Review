@@ -5,6 +5,16 @@
 * K-clustering을 이용해서 언어토큰을 군집분석하였음 -> 총 5개의 군집 생성
 * 이후, sentenceBERT모델을 이용해서 자연어 분석처리 하였고 워드클라우드화 하였음
 
+## 목차
+1. [문장 임베딩](##1.-문장-임베딩)
+2. [KMeans](##2.-`KMeans`-클러스터링-from-`Scikit-Learn`)
+3. [리뷰 크롤링](##3.-리뷰데이터-크롤링)
+4. [전처리](##4.-Preprocessing)
+5. [리뷰 임베딩](##5.-Reviews-Embedding)
+6. [K=5 Clustering](##6.-k=5-클러스터링)
+7. [워드클라우드](##7.-워드클라우드-그리기)
+
+---
 ## 1. 문장 임베딩
 
 `SentenceTransformer` 라이브러리 사용
@@ -70,7 +80,8 @@
 * `appid` : **1245620**
 * `pandas`를 사용해서 dictionary를 DataFrame로 변경
 
-## 4-1. First Preprocessing
+## 4. Preprocessing
+### 4-1. First Preprocessing
 * 한글이 아닌 글자 제거
   * 정규표현식 사용
 * 작은따옴표 제거
