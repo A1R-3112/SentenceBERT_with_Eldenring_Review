@@ -1,5 +1,5 @@
 # SentenceBERT_with_Eldenring_Review
-<br></br>
+<br>
 -> 스팀 게임 중 엘든링이라는 게임에 관한 리뷰를 분석해서 워드클라우드로 만들었음
 
 ## 목차
@@ -16,7 +16,7 @@
 ## 1. 문장 임베딩
 
 `SentenceTransformer` 라이브러리 사용
-  * 말 그대로 문장을 임베딜 즉, 벡터화 시켜줌
+  * 말 그대로 문장을 임베딩 즉, 벡터화 시켜줌
   ```python
   # 예시코드
   from sentence_transformers import SentenceTransformer
